@@ -1,5 +1,12 @@
 # US Census Demographic Data Visualization
 
+## About Dataset
+To understand the meaning of every column in the US Census dataset, you should go to [Kaggle](https://www.kaggle.com/datasets/muonneutrino/us-census-demographic-data).
+The data here are taken from the DP03 and DP05 tables of the 2015 American Community Survey 5-year estimates. The full datasets and much more can be found at the American Factfinder website. Currently, I include two data files:
+1. acs2015_census_tract_data.csv: Data for each census tract in the US, including DC and Puerto Rico.
+2. acs2015_county_data.csv: Data for each county or county equivalent in the US, including DC and Puerto Rico.
+The two files have the same structure, with just a small difference in the name of the id column. Counties are political subdivisions, and the boundaries of some have been set for centuries. Census tracts, however, are defined by the census bureau and will have a much more consistent size. A typical census tract has around 5000 or so residents.
+
 * [Link to Tableau story](https://public.tableau.com/views/US-Census-Demographic-Data-Viz/USCensusDataStory) - **includes three 
 dashboards.**
 
